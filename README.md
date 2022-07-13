@@ -1,2 +1,5 @@
 # Projeto-de-estudo-AluraBooks
-Projeto de estudo desenvolvido a partir do curso de layouts responsivos da Alura com HTML e CSS.
+
+Projeto desenvolvido através do curso de layouts responsivos com HTML e CSS.  
+Tecnologias usadas: HTML e CSS. Layout responsivo. 
+Desenvolvimento mobile-first.
