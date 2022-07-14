@@ -33,6 +33,15 @@
 	column-gap: 1rem;
 }
 
+.icones__link {
+	transition: .1s;
+}
+
+.icones__link:active {
+	transition: .1s;
+	transform: scale(1.2);
+}
+
 .menu__lista {
 	display: none;
 	position: absolute;
@@ -163,12 +172,29 @@
 		box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 	}
 
+	.menu__item:hover {
+		background: var(--azul-gradiente);
+	}
+
+	.menu__item:hover>.menu__links {
+		color: var(--branco);
+	}
+
 	.menu__item--categorias {
 		display: none;
 	}
 
 	.icones__header {
 		column-gap: 3rem;
+	}
+
+	.icones__link {
+		transition: .2s;
+	}
+
+	.icones__link:hover {
+		transition: .2s;
+		transform: scale(1.2);
 	}
 
 	.icones__header--favoritos {

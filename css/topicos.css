@@ -38,6 +38,17 @@
 	text-decoration: none;
 }
 
+.topicos__item:active {
+	background-color: var(--laranja-claro);
+
+	transform: scale(.98);
+	transition: .2s;
+	cursor: pointer;
+}
+
+.topicos__item:active>a{
+	color: #333333;
+}
 
 @media screen and (min-width: 1024px) {
 	.topicos {
@@ -59,6 +70,18 @@
 	.topicos__item {
 		font-size: 24px;
 		padding: 1em 2em;
+	}
+
+	.topicos__item:hover {
+		background-color: var(--laranja-claro);
+
+		transform: scale(.98);
+		transition: .2s;
+		cursor: pointer;
+	}
+
+	.topicos__item:hover>a{
+		color: #333333;
 	}
 }
 

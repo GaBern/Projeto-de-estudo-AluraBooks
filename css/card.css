@@ -56,6 +56,8 @@
 .card__icones img {
 	width: 16%;
 	padding: 0 .75em;
+
+	transition: .2s;
 }
 
 .card__angular {
@@ -83,6 +85,18 @@
 	margin-top: 1rem;
 }
 
+.card__botao:active {
+	background-color: var(--laranja-claro);
+	transition: .2s;
+	cursor: pointer;
+}
+
+.card__icones>img:active {
+	transition: .2s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
 
 @media screen and (min-width: 1024px) {
 	.card {
@@ -92,7 +106,21 @@
 	}
 
 	.card__icones img {
-	width: 2rem	;
+		width: 2rem	;
+
+		transition: .2s;
+	}
+
+	.card__botao:hover {
+		background-color: var(--laranja-claro);
+		transition: .2s;
+		cursor: pointer;
+	}
+
+	.card__icones>img:hover {
+		transition: .2s;
+		transform: scale(1.2);
+		cursor: pointer;
 	}
 }
 
